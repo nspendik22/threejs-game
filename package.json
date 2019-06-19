@@ -1,0 +1,26 @@
+{
+  "name": "threejs-game",
+  "version": "1.0.0",
+  "description": "threejs game",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "three": "^0.105.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nspendik22/threejs-game.git"
+  },
+  "author": "Nikolas Spendik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nspendik22/threejs-game/issues"
+  },
+  "homepage": "https://github.com/nspendik22/threejs-game"
+}
